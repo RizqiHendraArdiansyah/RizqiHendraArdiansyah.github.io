@@ -1,0 +1,119 @@
+*{ 
+    padding : 0; 
+    margin : 0; 
+    box-sizing : border-box; 
+   }
+   
+.judul{
+    color: black;
+    font-family: Trebuchet MS;
+    text-align: center;
+    border : 1px solid #dedede;
+    padding : 10px;
+    margin : 10px;
+    background-color: aqua;
+
+}
+body{
+    background-image: url(img/rajampat.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h2{
+    text-align: center;
+    font-family: Arial;
+}
+.container{
+    max-width : 1080px;
+    margin : 20px auto;
+    background : #fff;
+    overflow : hidden;
+    padding : 10px;
+    }
+
+.left{
+    width : 250px;
+    border : 1px solid #dedede;
+    padding : 10px;
+    margin : 10px;
+    float : left;
+    }
+
+.left ul{
+    list-style-type : none;
+    }
+
+.left ul li{
+    display : block;
+    }
+
+.left ul li a{
+    display :block;
+    border-bottom : 1px solid #dedede;
+    margin-bottom : 10px;
+    padding : 10px 5px;
+    color: black;
+    text-decoration: none;
+    }
+
+.left ul li a:hover{
+    color:#461AF3;
+    }
+
+.middle{
+    width : 500px;
+    border : 1px solid #dedede;
+    padding : 10px;
+    margin : 10px;
+    float : left;
+    }
+
+.middle img{
+    max-width : 100%;
+    height : auto;
+    }
+
+.middle a{
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    }
+
+.right{
+    width : 250px;
+    border : 1px solid #dedede;
+    padding : 10px;
+    margin : 10px;
+    float : left;
+    }
+    
+.right ul{
+    list-style-type : none;
+    }
+    
+.right ul li{
+    display : block;
+    }
+    
+.right ul li a{
+    display :block;
+    border-bottom : 1px solid #dedede;
+    margin-bottom : 10px;
+    padding : 10px 5px;
+    color: black;
+    text-decoration: none;
+    }
+    
+.right ul li a:hover{
+    color:#461AF3;
+    }
+
+.footer{
+    clear : both;
+    border : 1px solid #dedede;
+    padding : 15px;
+    margin : 10px;
+    background : aqua;
+    text-align: center;
+    }
